@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+
+
+}
+.container > div {
+	background-color:#eeeff2;
+	text-align: center;
+  margin: 10px;	
+  width: 100px;
+  height: 150px;
+  padding: 10px;
+  font-size: 40px;
+  font-family: Tahoma, sans-serif;
+  border-style: solid;
+	transition: all 0.6s ease-in-out;
+
+}
+.container>div:hover{
+  background-image: linear-gradient(to right, red,orange,yellow);
+  cursor: pointer;
+  animation-timing-function: ease-in-out;
+  transform: scale(1.2);
+  font-size: 60px;  
+  font-family: "Lucida Handwriting", "Courier New", Cursive;
+  text-shadow: 2px 2px 10px #000000;
+  box-shadow: 5px 5px 5px;
+
+  }
+
